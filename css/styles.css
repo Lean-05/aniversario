@@ -385,14 +385,16 @@ body {
 }
 
 @media screen and (max-width:500px) {
-    .body-1{
+    .body-1 {
         height: 1695px;
     }
+
     .cont-1 {
         display: flow-root;
         margin: 75px 100px 75px 59px;
     }
-    .cont-img1{
+
+    .cont-img1 {
         left: 5px;
     }
 
@@ -486,5 +488,72 @@ body {
     .gif6 {
         width: 230px;
         height: 200px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .cont-1 {
+        margin: 75px 100px 75px 35px;
+    }
+
+    .cont-1 img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .cont-2 {
+        padding-left: 58px;
+        text-align: center;
+    }
+
+    .body-1 {
+        height: 1895px;
+    }
+
+    .hover-galeria {
+        top: 0px;
+        right: 89px;
+    }
+
+    .gif2-div {
+        top: 2408px;
+        width: 270px;
+        left: 67px;
+        padding-top: 135px;
+    }
+
+    .gif3-div {
+        top: 2838px;
+        left: 65px;
+        width: 270px;
+        height: 214px;
+        padding-top: 150px;
+    }
+
+    .gif4-div {
+        top: 3313px;
+        width: 257px;
+        left: 63px;
+        padding-top: 160px;
+    }
+
+    .gif5-div {
+        width: 233px;
+        top: 3790px;
+        left: 73px;
+        padding-top: 180px;
+    }
+
+    .gif6-div {
+        width: 233px;
+        top: 4249px;
+        left: 73px;
+        padding-top: 180px;
+    }
+    .footer {
+        height: 2620px;
+    }
+    .text {
+        margin: 92px;
     }
 }
